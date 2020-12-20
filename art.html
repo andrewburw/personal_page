@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrew</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/art_page.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400&display=swap" rel="stylesheet"></head>
+
+<body>
+  <!--
+
+ /$$                            /$$$$$$                  /$$
+| $$                           /$$__  $$                | $$
+| $$$$$$$  /$$   /$$          | $$  \ $$ /$$$$$$$   /$$$$$$$  /$$$$$$   /$$$$$$  /$$   /$$
+| $$__  $$| $$  | $$          | $$$$$$$$| $$__  $$ /$$__  $$ /$$__  $$ /$$__  $$| $$  | $$
+| $$  \ $$| $$  | $$          | $$__  $$| $$  \ $$| $$  | $$| $$  \__/| $$$$$$$$| $$  | $$
+| $$  | $$| $$  | $$          | $$  | $$| $$  | $$| $$  | $$| $$      | $$_____/| $$  | $$
+| $$$$$$$/|  $$$$$$$ /$$      | $$  | $$| $$  | $$|  $$$$$$$| $$      |  $$$$$$$|  $$$$$$$
+|_______/  \____  $$|__/      |__/  |__/|__/  |__/ \_______/|__/       \_______/ \____  $$
+           /$$  | $$                                                             /$$  | $$
+          |  $$$$$$/                                                            |  $$$$$$/
+           \______/                                                              \______/
+
+hornespill@gmail.com
+-->
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <header>
+
+
+    <nav class="nav">
+      <div class="nav__menu container">
+
+
+        <div class="logo">
+          <p>A n d r e w</p>
+        </div>
+
+        <div class="nav-burger__menu" style="cursor:pointer" onclick="openNav()">
+          <div class="burger__line"></div>
+          <div class="burger__line"></div>
+          <div class="burger__line"></div>
+        </div>
+
+      </div>
+
+    </nav>
+  </header>
+
+  <div class="background__image container">
+    <div class="imagin">
+    </div>
+
+  </div>
+
+
+
+  <!--  MAIN PAGE -->
+  <main class="flex_container">
+    <div class="flex_item_left">
+      <div class="page__header">
+        <h1>Art Gallery</h1>
+        <p>What I am all about</p>
+      </div>
+
+    </div>
+  <!-- ******************* RIGHT SIDE ***************-->
+    <div class="flex_item_right">
+
+          <div class="row">
+            <div class="column ">
+              <img src="images/lightBox/photo1.jpg" id='image_1' onclick="viewImage(this)" />
+              <img src="images/lightBox/dark_wood.jpg" id='image_4' onclick="viewImage(this)" />
+              <img id='image_7' src="images/lightBox/triangle_work.jpg" onclick="viewImage(this)" />
+              <img id='image_10' src="images/lightBox/gg_work.png" onclick="viewImage(this)" />
+              <img  id='image_13' src="images/lightBox/gg_blue.jpg" onclick="viewImage(this)" />
+              <img  id='image_16' src="images/lightBox/space_work.jpg" onclick="viewImage(this)">
+            </div>
+            <div class="column">
+              <img src="images/lightBox/photo3.jpg" id='image_2' onclick="viewImage(this)">
+              <img src="images/lightBox/bike_work.jpg" id='image_5' onclick="viewImage(this)">
+              <img  id='image_8' src="images/lightBox/sea_work.jpg" onclick="viewImage(this)">
+              <img  id='image_11' src="images/lightBox/minimal_workl.jpg" onclick="viewImage(this)">
+              <img  id='image_14' src="images/lightBox/kar_work.jpg" onclick="viewImage(this)">
+
+            </div>
+            <div class="column">
+              <img src="images/lightBox/photo5.jpg" id='image_3' onclick="viewImage(this)">
+              <img src="images/lightBox/photo4.jpg" id='image_6' onclick="viewImage(this)">
+              <img  id='image_9' src="images/lightBox/dust_work.jpg" onclick="viewImage(this)">
+              <img  id='image_12' src="images/lightBox/hexagon_work.jpg" onclick="viewImage(this)">
+              <img  id='image_15' src="images/lightBox/radio_work.jpg" onclick="viewImage(this)">
+
+            </div>
+          </div>
+    </div>
+
+
+
+
+
+
+
+  </main>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
+</body>
+
+</html>
