@@ -1,0 +1,59 @@
+@media (min-width: 900px) {
+  .flex_container {
+    display: flex;
+    width: 100%;
+
+  }
+  .flex_item_right {
+    flex: 1;
+    background-image: url('../images/cover.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 8% 0%;
+  }
+
+  .flex_item_left {
+    width: 40%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+  }
+  .main-slogan>h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  .main-slogan {
+    padding-top: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .flex_container{
+     height: 100%;
+ }
+   .flex_item_left {
+     height: 100vh;
+    background-image: url('../images/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 8% 0%;
+}
+ .main-slogan>h1 {
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 100;
+   font-size: 30px;
+   line-height: 1.5em;
+   text-align: center;
+   color: #fff;
+
+ }
+ .main-slogan {
+   padding-top: 80%;
+ }
+
+
+
+}

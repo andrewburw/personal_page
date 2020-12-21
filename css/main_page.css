@@ -94,7 +94,7 @@
 .nav-burger__menu {
   float: right;
 }
-
+/*
 .flex_container {
   display: flex;
   width: 100%;
@@ -125,7 +125,7 @@
   font-size: 30px;
   line-height: 1.5em;
   text-align: center;
-}
+}  */
 
 .old__version>a {
   position: fixed;

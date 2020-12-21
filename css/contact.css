@@ -199,6 +199,13 @@
   text-decoration: underline;
   color: #000;
 }
+
+.sign {
+
+float: right;
+ padding-top: 100px;
+ padding-right: 100px;
+}
 /* *** LEFT SIDE *** */
 .flex_item_left {
   width: 30%;
