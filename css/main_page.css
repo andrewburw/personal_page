@@ -1,9 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 * {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
+/* ========= FADE IN ================= */
+body {
 
+  -moz-animation: fadein 2s; /* Firefox */
+   -webkit-animation: fadein 2s; /* Safari and Chrome */
+   -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 /* ********** NAV MENU  **********  */
 .overlay {
   height: 100%;
@@ -94,38 +133,7 @@
 .nav-burger__menu {
   float: right;
 }
-/*
-.flex_container {
-  display: flex;
-  width: 100%;
-}
 
-.flex_item_right {
-  flex: 1;
-  background-image: url('../images/cover.jpg');
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 8% 0%;
-}
-
-.flex_item_left {
-  width: 40%;
-  background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
-}
-
-.main-slogan {
-  padding-top: 50%;
-}
-
-.main-slogan>h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 30px;
-  line-height: 1.5em;
-  text-align: center;
-}  */
 
 .old__version>a {
   position: fixed;
@@ -139,4 +147,138 @@
 
 .old__version>a:hover {
   color: #000000;
+}
+/* *************** ABOUT PAGE ************ */
+.background__image {
+  padding-top: 70px;
+
+}
+
+
+.imagin {
+  background-image: url('../images/cover2.jpg');
+  height: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 8% 10%;
+}
+/*
+.flex_container-content {
+  padding-top: 64px;
+  display: flex;
+  width: 100%;
+} */
+
+/* *** RIGHT SIDE ***
+.flex_item_right-content {
+  flex: 1;
+  padding-left: 80px;
+}*/
+
+
+
+.about__info>p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #9A9494;
+}
+
+.about__list {
+  display: flex;
+}
+
+.about_li {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.about__list-list>li {
+  margin: 15px;
+}
+
+.about__list-list2>li {
+  margin: 15px;
+  color: #9A9494;
+}
+
+/* *** LEFT SIDE *** */
+
+
+.page__header>h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.page__header>p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #9A9494;
+}
+
+
+/* ****************** portvolio page ********* */
+
+/* ********* PROGRESS BOX ********** */
+.portfolio__section {
+  padding-top: 40px;
+  padding-bottom: 60px;
+
+}
+
+
+
+.work__picture {
+  float: left;
+  width: 115px;
+  height: 115px;
+  background: #C4C4C4;
+
+}
+
+
+
+.work__title {
+
+  padding-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.work__text {
+  padding-top: 10px;
+}
+
+.work__text>p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9A9494;
+}
+
+.work__view>a {
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #17BED2;
+  text-decoration: none;
+}
+
+.work__view>a:hover {
+  text-decoration: underline;
+  color: red;
 }

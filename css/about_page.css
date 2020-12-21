@@ -41,62 +41,6 @@
   padding-top: 50px;
 }
 
-/* ********** NAV MENU  **********  */
-.overlay {
-  height: 100%;
-  width: 0%;
-  position: fixed;
-  z-index: 1;
-  top: 20;
-  left: 0;
-  background-color: rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
-}
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #000;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #9A9494;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px
-  }
-
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
 
 .imagin {
   background-image: url('../images/cover2.jpg');
@@ -107,14 +51,14 @@
 }
 
 /* *************** MAIN PAGE SECTION ************ */
-.flex_container {
+.flex_container-content {
   padding-top: 64px;
   display: flex;
   width: 100%;
 }
 
 /* *** RIGHT SIDE *** */
-.flex_item_right {
+.flex_item_right-content {
   flex: 1;
   padding-left: 80px;
 }

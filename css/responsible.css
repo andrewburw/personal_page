@@ -28,8 +28,57 @@
   .main-slogan {
     padding-top: 50%;
   }
+  .page__header {
+    float: right;
+  }
+/* ************************* ABOUT PAGE ***************** */
+.flex_container-content {
+  padding-top: 64px;
+  display: flex;
+  width: 100%;
+}
+/* *** RIGHT SIDE *** */
+.flex_item_right-content {
+  flex: 1;
+  padding-left: 80px;
+}
+
+.author__image {
+  width: 85px;
+  height: 89px;
+  background: #C4C4C4;
+  float: left;
+}
+.flex_item_left-content {
+  width: 30%;
+}
+
+
+/* ************************* PORTFOLIO PAGE ***************** */
+
+.about__info {
+  padding-left: 100px;
+}
+
+.work__container {
+  padding-left: 145px;
+}
+
+.work__box {
+  padding: 30px;
+}
+
+
+
+
+
+
+
 }
 @media (max-width: 900px) {
+  .container{
+    padding: 0 25px;
+  }
   .flex_container{
      height: 100%;
  }
@@ -53,7 +102,31 @@
  .main-slogan {
    padding-top: 80%;
  }
+ .logo {
+   color: #fff;
+ }
+.burger__line {
 
+  background-color: #fff;
+}
+/* ********************* ABOUT PAGE ******************** */
+.flex_container-content{
+  display: inline-block;
 
+}
+.flex_item_left-content{
+  text-align: center;
 
+}
+.flex_item_right-content{
+  padding-top:5px;
+}
+.background__image {
+  padding: 0 0 ;
+}
+/* ********************* PORTFOLIO PAGE ******************** */
+.work__box {
+  padding-bottom:  40px;
+  float: right;
+}
 }
