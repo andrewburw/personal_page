@@ -101,7 +101,12 @@
   padding-top: 80px;
   padding-bottom: 20px;
 }
+/* ******************** ART PAGE *************** */
 
+.row {
+flex-wrap: wrap;
+
+}
 
 
 }
@@ -186,8 +191,11 @@
 .right__contacts >* {
   padding-top: 10px;
 }
+/* ****************** ART GALERY ************** */
+
 }
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and (min-width: 899px)  {
+
   .contacts__container {
 
     padding-left:0px;
@@ -204,7 +212,26 @@
   .right__contacts >* {
     padding-top: 10px;
   }
-
-
+  .right__contacts{
+    padding-left: 20px;
+  }
+  .flex_item_right-content {
+    padding-left: 0px;
+  }
 
 }
+@media screen and (max-width: 900px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .row {
+  flex-wrap: wrap;
+  }
