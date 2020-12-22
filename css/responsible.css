@@ -67,10 +67,40 @@
 .work__box {
   padding: 30px;
 }
+/* ************************** CONTACTS PAGE **************** */
+.contacts__container {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  padding-left: 140px;
+}
+
+.contacts__left-one>h1 {
+
+  line-height: 25px;
+
+  padding-bottom: 20px;
+}
 
 
+.contacts__left-two>h1 {
+  padding-top: 80px;
 
+  padding-bottom: 20px;
+}
 
+.right__contacts {
+
+  padding-left: 200px;
+}
+.contacts__right-one>h1 {
+
+  padding-bottom: 20px;
+}
+
+.contacts__right-two>h1 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
 
 
 
@@ -124,9 +154,57 @@
 .background__image {
   padding: 0 0 ;
 }
-/* ********************* PORTFOLIO PAGE ******************** */
+/* ********************* PORTFOLIO PAGE **************** */
 .work__box {
   padding-bottom:  40px;
   float: right;
+  display: inline-block;
+
 }
+.work__text{
+  padding-left: 140px;
+}
+.work__title{
+    padding-left: 140px;
+
+}
+/* ********************* CONTACTS PAGE **************** */
+.contacts__container {
+  font-family: 'Open Sans', sans-serif;
+
+  padding-left:0px;
+}
+.contacts__container  > * {
+
+  padding-top: 10px;
+}
+
+.left__contacts >* {
+  padding-top: 10px;
+}
+
+.right__contacts >* {
+  padding-top: 10px;
+}
+}
+@media (max-width: 1200px) {
+  .contacts__container {
+
+    padding-left:0px;
+  }
+  .contacts__container  > * {
+
+    padding-top: 10px;
+  }
+
+  .left__contacts >* {
+    padding-top: 10px;
+  }
+
+  .right__contacts >* {
+    padding-top: 10px;
+  }
+
+
+
 }
